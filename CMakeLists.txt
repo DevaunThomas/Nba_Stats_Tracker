@@ -12,6 +12,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(nba_stats_tracker
     src/main.cpp
+    src/models/Player.cpp
+    src/models/Team.cpp
+    src/models/Game.cpp
+    src/models/StatLine.cpp
 )
 
 target_include_directories(nba_stats_tracker

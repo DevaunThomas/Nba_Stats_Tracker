@@ -17,4 +17,4 @@ struct StatLine
     int FTMade = 0;
     int turnovers = 0;
     int minutesPlayed = 0;
-}
+};
