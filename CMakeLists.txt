@@ -16,6 +16,7 @@ add_executable(nba_stats_tracker
     src/models/Team.cpp
     src/models/Game.cpp
     src/models/StatLine.cpp
+    src/analytics/StatsAggregator.cpp
 )
 
 target_include_directories(nba_stats_tracker
