@@ -33,7 +33,7 @@ StatsAggregator::aggregatePlayerSeason(const vector<StatLine> &statLines)
     return result;
 }
 
-AggregatedStats StatsAggregator::aggregateAllSeasons(
+/* AggregatedStats StatsAggregator::aggregateAllSeasons(
     const std::vector<StatLine> &statLines)
 {
     AggregatedStats result;
@@ -60,4 +60,4 @@ AggregatedStats StatsAggregator::aggregateAllSeasons(
     }
 
     return result;
-}
+}  */
